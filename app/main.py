@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.database import engine, Base
+from app.routers import sample_router
 from app.models.sample_model import Sample
 
 app = FastAPI()

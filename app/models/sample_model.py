@@ -1,13 +1,13 @@
-from sqlalchemy import Column, Integer, String, DateTime, Float
+from sqlalchemy import Column, Integer, String, Float, DateTime
 from app.database import Base
-import datetime
+from datetime import datetime
 
 class Sample(Base):
-    __tablename__ = "samples"
+    __tablename__ = "sample"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(100), nullable=False)
-    date = Column(DateTime, default=datetime.datetime.utcnow)
-    type = Column(String(50), nullable=False)
+    name = Column(String, nullable=False)
+    date = Column(DateTime, default=datetime.utcnow)
+    type = Column(String, nullable=False)
     temperature = Column(Float, nullable=True)
-    description = Column(String(255), nullable=True)
+    description = Column(String, nullable=True)
