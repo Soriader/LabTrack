@@ -17,3 +17,7 @@ class SampleRead(SampleBase):
 
     class Config:
         orm_mode = True
+
+class SampleUpdate(SampleBase):
+    id: int
+
