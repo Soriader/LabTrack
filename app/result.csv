@@ -1,0 +1,21 @@
+sample_id,date,product,batch,parameter,value,unit,method,operator,status
+S001,2025-01-05,Olej rzepakowy,B001,pH,6.45,,ISO 10523,KW,OK
+S002,2025-01-05,Olej rzepakowy,B001,Density,0.918,g/cm3,ISO 12185,KW,OK
+S003,2025-01-05,Olej rzepakowy,B001,Acidity,0.35,mg KOH/g,ISO 660,KW,OK
+S004,2025-01-06,Olej rzepakowy,B002,pH,5.90,,ISO 10523,KW,OOS
+S005,2025-01-06,Olej rzepakowy,B002,Density,0.925,g/cm3,ISO 12185,KW,OK
+S006,2025-01-06,Olej rzepakowy,B002,Acidity,0.48,mg KOH/g,ISO 660,KW,OOS
+S007,2025-01-07,Krem nawilżający,B010,pH,5.45,,ISO 10523,AN,OK
+S008,2025-01-07,Krem nawilżający,B010,Density,1.02,g/cm3,ISO 12185,AN,OK
+S009,2025-01-07,Krem nawilżający,B010,Viscosity,8200,mPa·s,ISO 3219,AN,OK
+S010,2025-01-08,Krem nawilżający,B011,pH,6.20,,ISO 10523,AN,OOS
+S011,2025-01-08,Krem nawilżający,B011,Density,1.05,g/cm3,ISO 12185,AN,OK
+S012,2025-01-08,Krem nawilżający,B011,Viscosity,9100,mPa·s,ISO 3219,AN,OOS
+S013,2025-01-09,Olej rzepakowy,B003,pH,6.10,,ISO 10523,KW,OK
+S014,2025-01-09,Olej rzepakowy,B003,Density,0.920,g/cm3,ISO 12185,KW,OK
+S015,2025-01-09,Olej rzepakowy,B003,Acidity,0.40,mg KOH/g,ISO 660,KW,OK
+S016,2025-01-10,Krem nawilżający,B012,pH,5.30,,ISO 10523,AN,OK
+S017,2025-01-10,Krem nawilżający,B012,Density,1.01,g/cm3,ISO 12185,AN,OK
+S018,2025-01-10,Krem nawilżający,B012,Viscosity,7900,mPa·s,ISO 3219,AN,OK
+S019,2025-01-11,Olej rzepakowy,B004,pH,6.70,,ISO 10523,KW,OOS
+S020,2025-01-11,Olej rzepakowy,B004,Acidity,0.55,mg KOH/g,ISO 660,KW,OOS
