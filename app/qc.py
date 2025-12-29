@@ -33,6 +33,11 @@ def add_in_spec(df_merged: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def load_results_csv(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    return df
 
 def oos_report(df: pd.DataFrame, group_col: str) -> pd.DataFrame:
 
