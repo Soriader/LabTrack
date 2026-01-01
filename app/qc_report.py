@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 from app.qc_utils import load_results_csv, merge_with_spec, add_in_spec, oos_report
-from app.specs import get_default_spec
+from app.specs import load_spec_csv
 
 def main():
     base_dir = Path(__file__).resolve().parent  # .../app
@@ -10,7 +10,7 @@ def main():
     out_dir.mkdir(exist_ok=True)
 
     results = load_results_csv(str(results_path))
-    spec = get_default_spec()
+    spec = load_spec_csv()
 
     df_merged = merge_with_spec(results, spec)
     df_qc = add_in_spec(df_merged)

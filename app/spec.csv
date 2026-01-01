@@ -1,0 +1,5 @@
+parameter,min_spec,max_spec,unit_spec
+pH,6.0,6.6,-
+Density,0.9,1.03,g/cm3
+Acidity,0.0,0.45,mg KOH/g
+Viscosity,0.0,9000,mPa·s
